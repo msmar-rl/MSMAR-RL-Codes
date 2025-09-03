@@ -1,0 +1,16 @@
+<robot name="jet">
+  <link name="jet_base_link">
+    <visual>
+      <origin rpy="1.57 0 3.14" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Su57.obj"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.57 0 3.14" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Su57.obj"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,13 @@
+from skrl.agents.torch.ddpg.ddpg import DDPG, DDPG_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_rnn import DDPG_RNN
+from skrl.agents.torch.ddpg.ddpg_recovery import DDPG_Recovery,DDPG_RECOVERY_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_recovery_pretrain import DDPG_Recovery_Pretrain,DDPG_RECOVERY_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_recovery_same_memory import DDPG_Recovery_Same_Memory,DDPG_RECOVERY_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_recovery_different_memory import DDPG_Recovery_Different_Memory,DDPG_RECOVERY_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_recovery_risk_function import DDPG_Recovery_Risk_Function,DDPG_RECOVERY_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_recovery_long_risk import DDPG_Recovery_Long_Risk,DDPG_RECOVERY_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_recovery_risk_judge import DDPG_Recovery_Risk_Judge,DDPG_RECOVERY_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_recovery_longlong_risk import DDPG_Recovery_Longlong_Risk,DDPG_RECOVERY_DEFAULT_CONFIG
+
+from skrl.agents.torch.ddpg.ddpg_lag import DDPG_LAG, DDPG_LAG_DEFAULT_CONFIG
+from skrl.agents.torch.ddpg.ddpg_lag_auto import DDPG_LAG_AUTO, DDPG_LAG_DEFAULT_CONFIG
