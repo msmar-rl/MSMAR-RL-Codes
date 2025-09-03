@@ -1,0 +1,7 @@
+furo
+sphinx
+sphinx-tabs
+sphinx-autobuild
+sphinx-copybutton
+sphinx-notfound-page
+numpy
